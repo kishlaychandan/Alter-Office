@@ -75,7 +75,6 @@ function Signin() {
       <div className={style.nav}>
         <Link to="/">Home</Link>
         <Link to="/signup">Signup</Link>
-        <Link to="/signin">Signin</Link>
         <Link to="/admin">Admin</Link>
       </div>
       <form onSubmit={loggedin}>
