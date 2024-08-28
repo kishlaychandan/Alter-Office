@@ -1,0 +1,170 @@
+.feedback-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%; /* Full width of the parent container */
+  background-color: #62abfa!important;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logout-button {
+  padding: 10px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.feedback-list {
+  /* display: flex; */
+  width: 100%;
+  /* flex-wrap: wrap; Allows the cards to wrap onto the next line */
+  gap: 15px; /* Space between cards */
+  margin-top: 20px;
+  background-color: #007bff!important;
+  border-radius: 1.5rem;
+  display: flex!important;
+}
+
+.feedback-card {
+  flex: 1 1 calc(30% - 15px); /* Adjusts the card width and allows wrapping */
+  max-width: 300px; /* Limits the maximum width of each card */
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  /* padding: 15px; */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-sizing: border-box;
+  margin: 0px!important;
+  padding: 0px!important;
+
+  background-color: pink!important;
+}
+.notes{
+  width: 100%;
+    padding: 1.5rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5d563;
+}
+.content{
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  /* background-color: #f5d563; */
+}
+.feedback-card.add-new {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 2px dashed #aaa;
+  background-color: #f9f9f9;
+  height: 150px; /* Fixed height for the "New Form" card */
+  flex: 1 1 calc(30% - 15px); /* Ensure it takes the same width as other cards */
+  max-width: 300px; /* Limits the maximum width of each card */
+}
+
+.plus-icon {
+  font-size: 40px;
+  color: #007bff;
+}
+
+.feedback-card h4 {
+  margin: 0;
+}
+
+.feedback-card p {
+  margin: 10px 0;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-button, .delete-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+}
+
+.form-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.feedback-form {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.close-button {
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
